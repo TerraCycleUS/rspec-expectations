@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.require_path     = "lib"
 
   s.add_runtime_dependency     'diff-lcs', '>= 1.1.3', '< 2.0'
+  s.add_runtime_dependency     'awesome_print'
 
   s.add_development_dependency 'rake',     '~> 10.0.0'
   s.add_development_dependency 'cucumber', '~> 1.1.9'
